@@ -1,0 +1,59 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {              
+		  "src":"../",
+          "files": ["**.cs"],
+          "exclude": [
+            "_site/**",
+            "**/bin/**",
+            "**/obj/**",
+            "**/[Tt]ests/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["api/**"]
+      },
+      {
+        "files": ["**/toc.yml", "**.md", "../**.md"],
+        "exclude": [
+          "_site/**",
+          "**/bin/**",
+          "**/obj/**",
+          "**/[Tt]ests/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["Images/**"]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+	  "templates/unity"
+    ],
+    "globalMetadata": {
+      "_appTitle": "Graph View Behavior Tree Documentation",
+      "_enableSearch": true
+    },
+    "postProcessors": ["ExtractSearchIndex"],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

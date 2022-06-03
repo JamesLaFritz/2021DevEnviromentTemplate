@@ -3,7 +3,7 @@
     {
       "src": [
         {              
-		  "src":"../",
+          "src":"../",
           "files": ["**.cs"],
           "exclude": [
             "_site/**",
@@ -43,10 +43,10 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-	  "templates/unity"
+      "templates/unity"
     ],
     "globalMetadata": {
-      "_appTitle": "Graph View Behavior Tree Documentation",
+      "_appTitle": "[package-name] Documentation",
       "_enableSearch": true
     },
     "postProcessors": ["ExtractSearchIndex"],

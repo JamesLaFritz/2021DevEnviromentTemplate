@@ -59,11 +59,14 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-	  <ul>
+      <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
       <ul>
-        <li><a href="#articles">Articles</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+      <ul>
+        <li><a href="#installation">Articles</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -78,11 +81,37 @@
 
 ![Product Name Screen Shot](Documentation~/Images/ScreenShot.png)
 
+[Documentation](https://jameslafritz.github.io/[project-name])
+
+Be sure to Edit replacing [package-name] every with project name
+
 
 
 ### Built With
 
 * <a href="https://www.linkedin.com/in/james-lafritz/"><img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"/></a>
+
+
+<!-- Installation -->
+### Installation
+To install this into your project for modifications
+Clone or Download the code from Git Hub into the Asset Folder of your project.
+Change the Folder From GraphView Behavior Tree to mach what you wold like.
+Edit all Files and change the NameSpace to match your new Folder Name. Do Not forget to change this in the UXML Documents as well. i.e "GraphViewBehaviorTree.Editor.SplitView"
+Delete the Runtime/james.lafritz.GraphViewBehaviorTree and Editor/james.lafritz.GraphViewBehaviorTree.Editor Assembly Definition Files, Or Edit/Replace them with your own.
+
+To use Template as is Use the Package manager to Install package from Git Hub. 
+see [Creating custom packages for use in Unity](https://blog.devgenius.io/creating-custom-packages-for-use-in-unity-7dfbaa49e4b4)
+
+* In Unity open the package manager
+    * Go to Window->PackageManager
+    * ![OpenPackageManager](Documentation~/Images/OpenPackageManager.gif)
+* Install this Package from git url
+    * Click the Plus Drop down
+    * Select "add package from git URL"
+        * https://github.com/JamesLaFritz/GraphViewBehaviorTree.git
+        * Select add
+    * ![InstallPackage](Documentation~/Images/InstallPackage.gif)
 
 
 <!-- Articles -->

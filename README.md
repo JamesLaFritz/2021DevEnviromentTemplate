@@ -109,7 +109,7 @@ see [Creating custom packages for use in Unity](https://blog.devgenius.io/creati
 * Install this Package from git url
     * Click the Plus Drop down
     * Select "add package from git URL"
-        * https://github.com/JamesLaFritz/GraphViewBehaviorTree.git
+        * https://github.com/JamesLaFritz/[package-name].git
         * Select add
     * ![InstallPackage](Documentation~/Images/InstallPackage.gif)
 

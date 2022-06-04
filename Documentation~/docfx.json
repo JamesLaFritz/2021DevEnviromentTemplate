@@ -6,16 +6,16 @@
           "src":"../",
           "files": ["**.cs"],
           "exclude": [
-            "_site/**",
+            "docs/**"
             "**/bin/**",
-            "**/obj/**",
-            "**/[Tt]ests/**"
+            "**/obj/**"
           ]
         }
       ],
       "dest": "api",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "force": true
     }
   ],
   "build": {
@@ -24,12 +24,25 @@
         "files": ["api/**"]
       },
       {
-        "files": ["**/toc.yml", "**.md", "../**.md"],
+        "src": "../",
+        "files": [
+          "CHANGELOG.md",
+          "LICENSE.md",
+          "Third Party Notices.md"
+        ],
+        "dest": "articles/"
+      },
+      {
+        "files": ["**/toc.yml", "**.md"],
         "exclude": [
-          "_site/**",
+          "api/**",
+          "articles/**",
+          "Images/**",
+          "obj/**",
           "**/bin/**",
           "**/obj/**",
-          "**/[Tt]ests/**"
+          "**/[Tt]ests/**",
+          "**/api/**"
         ]
       }
     ],
@@ -38,7 +51,17 @@
         "files": ["Images/**"]
       }
     ],
-    "dest": "_site",
+    "overwrite": [
+      {
+        "files": [
+          "api/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+        ]
+      }
+    ],
+    "dest": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

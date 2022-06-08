@@ -6,7 +6,7 @@
           "src":"../",
           "files": ["**.cs"],
           "exclude": [
-            "docs/**"
+            "docs/**",
             "**/bin/**",
             "**/obj/**"
           ]

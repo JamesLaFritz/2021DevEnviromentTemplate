@@ -8,7 +8,8 @@ ____
 
 ____
 
-## Assets:
+## Adobe
+### Assets:
 
 * "Mixamo/**"
   > All Animations and Models can be obtained for free from [Mixamo](https://www.mixamo.com)
@@ -24,7 +25,8 @@ ____
 
 ____
 
-## Assets:
+## Extension Asset
+### Assets:
 
 * "Asset Store/Synty/PolygonStarter/**"
   * [POLYGON Starter Pack - Low Poly 3D Art by Synty](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819)
@@ -38,7 +40,8 @@ ____
 
 ____
 
-## Assets:
+## Single Entity
+### Assets:
 
 ### Licenses:
 * [Asset Store End User License Agreement](https://unity3d.com/legal/as_terms#section-1-parties-to-the-agreementthe-subject-matter-of-the-agreement)
@@ -47,7 +50,8 @@ ____
 
 ____
 
-## Assets:
+## Restricted Single Entity
+### Assets:
 * "Asset Store/Synty/PolygonPrototype/**"
   * [POLYGON Prototype - Low Poly 3D Art by Synty](https://assetstore.unity.com/packages/3d/props/exterior/polygon-prototype-low-poly-3d-art-by-synty-137126)
     * Cost: $4.99
@@ -59,7 +63,8 @@ ____
 
 ____
 
-## Assets:
+## Restricted Single Entity Synty Custom Licenses
+### Assets:
 
 ### Licenses:
 * [Asset Store End User License Agreement](https://unity3d.com/legal/as_terms#section-1-parties-to-the-agreementthe-subject-matter-of-the-agreement)

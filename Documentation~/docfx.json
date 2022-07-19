@@ -1,0 +1,67 @@
+{
+  "build": {
+    "content": [
+      {
+        "src": "License",
+        "files": ["**toc.yml", "**.md"],
+        "dest": "License/"
+      },
+      {
+        "src": "Manual",
+        "files": ["**toc.yml", "**.md"],
+        "dest": "Manual/"
+      },
+      {
+        "files": ["**toc.yml", "**.md"],
+        "exclude": [
+          "api/**",
+          "obj/**",
+          "Manual/**",
+          "Images/**",
+          "License/**",
+          "**/api/**",
+          "**/bin/**",
+          "**/obj/**",
+          "**/[Tt]ests/**",
+          "**/License/**",
+          "**/Manual/**",
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["Images/**"]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "api/**.md"
+        ],
+        "exclude": [
+          "obj/**"
+        ]
+      }
+    ],
+    "dest": "../docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+	  "templates/materials"
+    ],
+    "globalMetadata": {
+      "_appTitle": "Core Framework Documentation",
+      "_enableSearch": true,
+	  "_diableBreadcrumb": true,
+	  "_disableToc": false,
+	  "_disableContribution": true
+    },
+    "postProcessors": ["ExtractSearchIndex"],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": true,
+    "disableGitFeatures": false
+  }
+}

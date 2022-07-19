@@ -1,0 +1,7 @@
+- name: LICENSE
+  href: LICENSE.md
+  items:
+    - name: Third Party Notices
+      href: Third Party Notices.md
+    - name: Unity Asset Store Licenses
+      href: Asset Licenses.md

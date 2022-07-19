@@ -1,0 +1,31 @@
+Tab Group 1:
+
+# [**Tab Text 1**](#tab/tabid-1)
+
+Tab content-1.
+
+# [**Tab Text 2**](#tab/tabid-2)
+
+Tab content-2.
+
+***
+
+Tab Group 2:
+
+# [Tab Text A](#tab/tabid-a/tabid-1)
+
+Tab content-a for 1.
+
+# [Tab Text A](#tab/tabid-a/tabid-2)
+
+Tab content-a for 2.
+
+# [Tab Text B](#tab/tabid-b/tabid-1)
+
+Tab content-b for 1.
+
+# [Tab Text B](#tab/tabid-b/tabid-2)
+
+Tab content-b for 2.
+
+***

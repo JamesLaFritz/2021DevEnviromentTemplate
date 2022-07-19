@@ -1,0 +1,37 @@
+## Alerts
+
+>[!NOTE]
+> some info
+
+> [!TIP]
+> This is some Tip
+
+> [!WARNING]
+> This is a warning
+
+>[!CAUTION]
+> This is a Catuion
+
+> [!IMPORTANT]
+> This is something Important
+
+## Images
+
+Put Images in the Images Directory To use them here
+
+![Imag Description](../../Images/repository-open-graph-template.png)
+
+## Code
+### Normal
+```cs
+private void Update()
+{
+}
+```
+
+### Block Quote
+> ```cs
+> private void Update()
+> {
+> }
+> ```

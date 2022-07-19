@@ -1,0 +1,6 @@
+- name: Manual
+  href: ../index.md
+  items:
+    - name: [package-name]
+      href: [package-name].md
+      topicHref: [package-name].md

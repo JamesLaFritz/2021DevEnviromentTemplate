@@ -1,0 +1,29 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {              
+          "src":"../",
+          "files": ["**.cs"],
+          "exclude": [
+            "docs/**",
+            "**/bin/**",
+            "**/obj/**",
+			"Documentation~/**",
+			".git/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "force": true
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["api/**"]
+      },
+  }
+}

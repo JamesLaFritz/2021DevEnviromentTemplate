@@ -1,0 +1,13 @@
+- name: Manual
+  href: index.md
+- name: License Info
+  href: License/LICENSE.md
+  items:
+  - name: Third Party Notices
+    href: License/Third Party Notices.md
+- name: Scripting API
+  href: CHANGELOG.md
+  topicHref: CHANGELOG.md
+  items:
+  - name: Change Log
+    href: CHANGELOG.md
